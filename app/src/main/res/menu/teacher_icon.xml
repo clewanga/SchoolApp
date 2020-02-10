@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/ic_menu_person_teacher"
+            android:title="Personal Details" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/ic_menu_course"
+            android:title="Course" />
+        <item
+            android:id="@+id/nav_expertise"
+            android:icon="@drawable/ic_expertise_teacher"
+            android:title="Skills"/>
+        <item
+            android:id="@+id/nav_password"
+            android:icon="@drawable/ic_menu_change"
+            android:title="Change Password" />
+    </group>>
+
+</menu>
